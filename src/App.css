@@ -678,6 +678,20 @@
   padding-bottom: 2em;
 }
 
+.eco-description-container {
+  align-items: center;
+  background: rgb(0, 0, 0, 0.5);
+  border-radius: 12px;
+  height: auto;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-right: 2em;
+  width: 100%;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1em;
+}
+
 .description-container {
   align-items: center;
   background: rgb(0, 0, 0, 0.5);
@@ -710,6 +724,26 @@
 .description {
   text-align: left;
   width: 100%;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.total-supply {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  padding-left: 0.2em;
+  padding-right: 0.5em;
+  padding-top: 1em;
+  margin-top: 1em;
+  color: #BBBBBB;
+  border-top: 1px solid #BBBBBB;
+}
+
+.outer-box {
+  padding-left: 1em;
+  padding-right: 4em;
 }
 
 .index-logo-container {
@@ -1111,7 +1145,7 @@ div::-webkit-scrollbar {
   border-top-left-radius: 0.75em !important;
 }
 
-.ant-table-tbody > tr.ant-table-row > td:nth-child(4) {
+.ant-table-tbody > tr.ant-table-row > td:nth-child(3) {
   border-bottom-right-radius: 0.75em !important;
   border-top-right-radius: 0.75em !important;
 }

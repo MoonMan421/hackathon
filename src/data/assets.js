@@ -5,6 +5,9 @@ const ASSETS =
     token: 'kuji',
     src: 'kuji', 
     coingeckoId: 'kujira',
+    description: 'KUJI is the native token of the Kujira blockchain. It accumulates value through different revenue streams of its products, such as their on-chain orderbook exchange (FIN), liquidation engine (ORCA), lending market (GHOST), as well as a variety of other third-party products.',
+    twitter: 'https://x.com/TeamKujira',
+    website: 'https://kujira.network',
     distribution: [{
       bucket: 'Private Sale',
       amount: 27_875_000,
@@ -72,6 +75,9 @@ const ASSETS =
     token: 'mnta',
     src: 'mnta', 
     coingeckoId: 'mantadao',
+    description: 'MNTA is the token of MantaDAO, an application focusing on increasing liquidity on Kujira. Its core product is an AMM-style swap interface, as well as market making & liquidity provision.',
+    twitter: 'https://x.com/Manta_DAO',
+    website: 'https://mantaswap.app',
     distribution: [{
       bucket: 'DAO Treasury',
       amount: 95_000_000,
@@ -91,6 +97,9 @@ const ASSETS =
     token: 'wink',
     src: 'wink', 
     coingeckoId: 'winkhub',
+    description: 'WINK is a memecoin, that comes alongside the product Winkhub, a content publishing platform. ',
+    twitter: 'https://x.com/TheWinkTeam',
+    website: 'https://winkhub.app',
     distribution: [{
       bucket: 'Public Sale',
       amount: 29_325_000,
@@ -128,6 +137,9 @@ const ASSETS =
     token: 'nstk',
     src: 'nstk', 
     coingeckoId: 'unstake-fi',
+    description: 'NSTK is the token of Unstake, a new DeFi primitive that allows instantly unstaking of staked & bonded assets utilizing the Kujira borrowing market.',
+    twitter: 'https://x.com/unstake_fi',
+    website: 'https://unstake.fi',
     distribution: [{
       bucket: 'Airdrop',
       amount: 65_000_000,
@@ -141,6 +153,9 @@ const ASSETS =
     token: 'aqla',
     src: 'aqla', 
     coingeckoId: 'aqualibre',
+    description: 'AQLA is the token of Aqualibre, a RWA project targeting the carbon emission market.',
+    twitter: 'https://x.com/AQLA_Token',
+    website: 'https://aqlatoken.com/',
     distribution: [{
       bucket: 'Public Sale',
       amount: 103_600_000,
@@ -190,6 +205,9 @@ const ASSETS =
     token: 'nami',
     src: 'nami', 
     coingeckoId: 'nami-protocol',
+    description: 'NAMI is the token of Nami protocol, a banking-like app that offers fixed rate stablecoin yields by optimizing different lending yields on Kujira GHOST.',
+    twitter: 'https://x.com/NamiProtocol',
+    website: 'https://namifi.app',
     distribution: [{
       bucket: 'Public Sale',
       amount: 40_000_000,
@@ -221,6 +239,9 @@ const ASSETS =
     token: 'fuzn',
     src: 'fuzn', 
     coingeckoId: 'fuzion',
+    description: 'FUZN is the token of Fuzion, which offers a variety of apps, including a launchpad (PILOT), bonds, options & more.',
+    twitter: 'https://x.com/Fuzion_App',
+    website: 'https://fuzion.app',
     distribution: [{
       bucket: 'Public Sale',
       amount: 40_000_000,
@@ -245,7 +266,7 @@ const ASSETS =
       percentage: 15,
       color: '#DDFEFD',
     }],
-    total_supply: 100_000_000, 
+    total_supply: 175_000_000, 
     denom: 'fuzn'
   },
 ]

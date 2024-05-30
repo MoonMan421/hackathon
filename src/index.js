@@ -52,7 +52,7 @@ const Content = () => {
 
   return (
     <Routes>
-      <Route path="/app" element={<MainPage/>}/>
+      <Route path="/ecosystem" element={<MainPage/>}/>
       {/* <Route path='*' element={<NotFoundPage/>}/> */}
     </Routes>
   );

@@ -27,7 +27,7 @@ const counter = {
 
 ChartJS.register(counter);
 
-export function DoughnutChartComponent({chartDataPassed, activeToken, onChange, activeIndex}) {
+export function DoughnutChartComponentMnta({chartDataPassed, activeToken, onChange, activeIndex}) {
   const chartRef = useRef(null)
 
   // console.log("chartDataPassed", chartDataPassed)
@@ -54,7 +54,7 @@ export function DoughnutChartComponent({chartDataPassed, activeToken, onChange, 
   // console.log("activeTokenAfter", activeToken)
 
   const image = new Image();
-  image.src = `/kuji-logo.png`
+  image.src = `/mnta-logo.png`
   const imageNew = new Image();
   imageNew.src = `/nstk-logo.png`
   // activeToken == 'kuji' ? image.src = `kuji-logo.png` : image.src = `mnta-logo.png`

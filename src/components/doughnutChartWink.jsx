@@ -27,7 +27,7 @@ const counter = {
 
 ChartJS.register(counter);
 
-export function DoughnutChartComponent({chartDataPassed, activeToken, onChange, activeIndex}) {
+export function DoughnutChartComponentWink({chartDataPassed, activeToken, onChange, activeIndex}) {
   const chartRef = useRef(null)
 
   // console.log("chartDataPassed", chartDataPassed)
@@ -54,33 +54,10 @@ export function DoughnutChartComponent({chartDataPassed, activeToken, onChange, 
   // console.log("activeTokenAfter", activeToken)
 
   const image = new Image();
-  image.src = `/kuji-logo.png`
-  const imageNew = new Image();
-  imageNew.src = `/nstk-logo.png`
-  // activeToken == 'kuji' ? image.src = `kuji-logo.png` : image.src = `mnta-logo.png`
-
-  // useEffect(() => {
-  //   image.src = `/${activeToken}-logo.png`
-  // }, [activeToken])
-
+  image.src = `/wink-logo.png`
 
   const plugin = {
     id: 'custom_canvas_background_image',
-    beforeDraw: (chart) => {
-      if (image.complete) {
-        const ctx = chart.ctx;
-        const {top, left, width, height} = chart.chartArea;
-        const x = left + width / 2 - image.width / 2;
-        const y = top + height / 2 - image.height / 2;
-        ctx.drawImage(image, x, y);
-      } else {
-        image.onload = () => chart.draw();
-      }
-    },
-  };
-
-  const pluginNew = {
-    id: 'custom_canvas_background_image_new',
     beforeDraw: (chart) => {
       if (image.complete) {
         const ctx = chart.ctx;
